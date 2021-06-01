@@ -35,7 +35,7 @@ Import the file `database.js` into your file `server.js` using the `require()` f
 
 ## Task 4 - Add middleware for a GET request to '/checkUsernameExists'
 
-Using the snippet **GET request middleware with parameters**, write some middleware that will respond to the path /checkUsernameExists
+Using the snippet **GET request middleware with parameters**, write some middleware that will respond to the path `/checkUsernameExists`
 
 > Hint: Parameters can be added to a path with a `:` symbol, for example, to add the parameter `name` we would write `/:name/`
 
@@ -51,7 +51,7 @@ The middleware should check to see if the user exists in the database and return
 
 ## Task 5 - Add middleware for a GET request to '/findById'
 
-Using the snippet **GET request middleware with parameters**, write some middleware that will respond to the path /findById
+Using the snippet **GET request middleware with parameters**, write some middleware that will respond to the path `/findById`
 
 This middleware should receive one parameter `id`
 
