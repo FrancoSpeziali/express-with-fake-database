@@ -15,7 +15,7 @@ This project assumes you've already had experience with:
 
 ## Tasks
 
-## Task 1 - Getting ready
+### Task 1 - Getting ready
 
 1. Initialise npm into your project
    `npm init -y`
@@ -23,17 +23,17 @@ This project assumes you've already had experience with:
    `npm i express`
 3. Create a file for your server (`server.js`)
 
-## Task 2 - Setting up your server
+### Task 2 - Setting up your server
 
 Use the snippet **starter code** to initialise your `server.js` file
 
-## Task 3 - Import your database
+### Task 3 - Import your database
 
 We will use mock data for our database
 
 Import the file `database.js` into your file `server.js` using the `require()` function
 
-## Task 4 - Add middleware for a GET request to '/checkUsernameExists'
+### Task 4 - Add middleware for a GET request to '/checkUsernameExists'
 
 Using the snippet **GET request middleware with parameters**, write some middleware that will respond to the path `/checkUsernameExists`
 
@@ -49,7 +49,7 @@ The middleware should check to see if the user exists in the database and return
 
 - If the user does not exist, send a `response` with the message "User does not exist"
 
-## Task 5 - Add middleware for a GET request to '/findById'
+### Task 5 - Add middleware for a GET request to '/findById'
 
 Using the snippet **GET request middleware with parameters**, write some middleware that will respond to the path `/findById`
 

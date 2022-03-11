@@ -1,6 +1,6 @@
 // This file contains mock database data
 
-module.exports = [{
+export default [{
     "id": 1,
     "username": "jsabie0",
     "first_name": "Juan",
