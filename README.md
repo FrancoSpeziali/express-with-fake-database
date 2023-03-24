@@ -31,11 +31,11 @@ Use the snippet **starter code** to initialise your `server.js` file
 
 We will use mock data for our database
 
-Import the file `database.js` into your file `server.js` using the `require()` function
+Import the file `database.js` into your file `server.js`
 
 ### Task 4 - Add a handler for a GET request to '/checkUsernameExists'
 
-Using the snippet **GET request with parameters**, write a handler that will respond to the path `/checkUsernameExists`
+Using the snippet **GET request with route parameter**, write a handler that will respond to the path `/checkUsernameExists`
 
 > Hint: Parameters can be added to a path with a `:` symbol, for example, to add the parameter `name` we would write `/:name/`
 
@@ -51,7 +51,7 @@ The handler should check to see if the user exists in the database and return th
 
 ### Task 5 - Add a handler for a GET request to '/findById'
 
-Using the snippet **GET request with parameters**, write a handler that will respond to the path `/findById`
+Using the snippet **GET request with route parameter**, write a handler that will respond to the path `/findById`
 
 This handler should receive one parameter `id`
 
