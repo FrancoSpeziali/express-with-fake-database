@@ -12,7 +12,7 @@ app.listen(3001, () => {
 });
 ```
 
-##### GET request middleware with parameters
+##### GET request with route parameter
 ```javascript
 // replace "/path" with your own path
 // replace ":param1" with your own param
